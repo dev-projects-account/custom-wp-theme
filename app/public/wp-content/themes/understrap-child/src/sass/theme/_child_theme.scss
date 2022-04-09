@@ -1,0 +1,32 @@
+.wp-block-search__input {
+  background-color: $yellowish;
+  color: black;
+}
+
+textarea.form-control {
+  background-color: $yellowish;
+  border-color: black;
+}
+
+.wp-block-search.wp-block-search__button-inside
+  .wp-block-search__inside-wrapper
+  .wp-block-search__button {
+  background-color: $yellowish;
+}
+
+.btn-secondary {
+  border-color: black;
+}
+
+.social a i {
+  color: black;
+}
+
+#custom-footer {
+  background-color: #afeeee !important;
+  color: black !important;
+}
+
+#wrapper-footer {
+  background-color: #afeeee !important;
+}

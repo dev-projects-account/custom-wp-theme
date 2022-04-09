@@ -19,6 +19,7 @@ require ABSPATH . WPINC . '/option.php';
  * If `$translate` is true then the given date and format string will
  * be passed to `wp_date()` for translation.
  *
+ *
  * @since 0.71
  *
  * @param string $format    Format of the date to return.

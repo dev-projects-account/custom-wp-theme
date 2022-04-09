@@ -1,0 +1,13 @@
+.widget {
+    margin-bottom: $spacer * 2;
+
+    div .wp-block-group__inner-container .wp-block-group__inner-container {
+        text-transform: uppercase;
+        color: $white;
+        background-color: $primary;
+        font-size: .3rem !important;
+        @extend .h5;
+        border: 1px solid grey;
+        padding: $spacer * .25
+    }
+}

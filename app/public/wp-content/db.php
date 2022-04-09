@@ -1,0 +1,1 @@
+/Users/dave/Local Sites/mytestsite/app/public/wp-content/plugins/query-monitor/wp-content/db.php

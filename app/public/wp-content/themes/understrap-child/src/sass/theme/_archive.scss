@@ -1,0 +1,14 @@
+body.home,
+body.archive {
+    article {
+        margin-bottom: $spacer;
+    }
+}
+
+.btn {
+    display: block;
+
+    @include media-breakpoint-up(md) {
+        display: inline-block
+    }
+}
