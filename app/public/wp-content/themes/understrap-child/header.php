@@ -33,7 +33,7 @@ $navbar_type       = get_theme_mod('understrap_navbar_type', 'collapse');
 
 			<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e('Skip to content', 'understrap'); ?></a>
 			<nav class="navbar navbar-expand navbar-dark bg-secondary">
-				<div style="justify-content: center" class="container">
+				<div style="justify-content: right" class="container">
 					<?php
 					wp_nav_menu(
 						array(
