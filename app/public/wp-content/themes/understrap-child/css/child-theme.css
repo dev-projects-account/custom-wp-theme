@@ -15549,6 +15549,10 @@ textarea.form-control, .wpcf7 textarea.wpcf7-validation-errors,
   background-color: #afeeee !important;
 }
 
+#landing-main {
+  background-color: #ff48c4 !important;
+}
+
 body.home article,
 body.archive article {
   margin-bottom: 1rem;

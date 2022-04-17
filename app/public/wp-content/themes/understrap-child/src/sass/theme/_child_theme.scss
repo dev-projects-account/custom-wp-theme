@@ -4,7 +4,7 @@
 }
 
 textarea.form-control {
-  background-color: $yellowish;
+  background-color: $yellowish !important;
   border-color: black;
 }
 
@@ -18,6 +18,7 @@ textarea.form-control {
   border-color: black;
 }
 
+//make footer social links black
 .social a i {
   color: black;
 }
@@ -29,4 +30,8 @@ textarea.form-control {
 
 #wrapper-footer {
   background-color: #afeeee !important;
+}
+
+#landing-main {
+  background-color: $primary !important;
 }

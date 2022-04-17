@@ -1,13 +1,18 @@
 .widget {
-    margin-bottom: $spacer * 2;
-
-    div .wp-block-group__inner-container .wp-block-group__inner-container {
-        text-transform: uppercase;
-        color: $white;
-        background-color: $primary;
-        font-size: .3rem !important;
-        @extend .h5;
-        border: 1px solid grey;
-        padding: $spacer * .25
-    }
+  margin-bottom: $spacer * 2;
+  .wp-block-search__button-inside
+    .wp-block-search__icon-button
+    .wp-block-search
+    .wp-widget-group__inner-blocks {
+    display: none;
+  }
+  div .wp-block-group__inner-container .wp-block-group__inner-container {
+    text-transform: uppercase;
+    color: $white;
+    background-color: $primary;
+    font-size: 0.3rem !important;
+    @extend .h5;
+    border: 1px solid grey;
+    padding: $spacer * 0.25;
+  }
 }

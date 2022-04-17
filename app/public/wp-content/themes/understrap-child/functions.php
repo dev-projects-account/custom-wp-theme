@@ -10,7 +10,6 @@
 defined('ABSPATH') || exit;
 
 
-
 /**
  * Removes the parent themes stylesheet and scripts from inc/enqueue.php
  */
@@ -91,6 +90,12 @@ function understrap_child_customize_controls_js()
 		array('customize-preview'),
 		'20130508',
 		true
+	);
+	wp_enqueue_script(
+		'scroll-magic',
+		get_stylesheet_directory_uri() . '/js/scroll-magic.js',
+		array(),
+		false
 	);
 }
 add_action('customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js');
